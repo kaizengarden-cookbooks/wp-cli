@@ -7,7 +7,7 @@
 # All rights reserved - Do Not Redistribute
 #
 
-cookbook_file "/root/bin/wp-cli" do
+cookbook_file "/opt/local/bin/wp-cli" do
   source "wp-cli.phar"
   owner "root"
   group "root"
